@@ -1,0 +1,122 @@
+body {
+  font-family: 'Roboto';
+  background-color: #373737;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.rock {
+  flex: 1;
+  background-color: #3882f6;
+  color: #ffffff;
+  border: 2px #000000 solid;
+  border-radius: 12px;
+  padding: 16px 32px 16px 32px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  transition-duration: 0.3s;
+}
+
+.rock:hover:not([disabled]) {
+  background-color: #7dafff;
+  color: #000000;
+  box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
+  cursor: pointer;
+}
+
+.rock:disabled {
+  background-color: #9d9d9d;
+  color: #000000;
+  cursor: not-allowed;
+}
+
+.paper {
+  flex: 1;
+  background-color: #3882f6;
+  color: #ffffff;
+  border: 2px #000000 solid;
+  border-radius: 12px;
+  padding: 16px 32px 16px 32px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  transition-duration: 0.3s;
+}
+
+.paper:hover:not([disabled]) {
+  background-color: #7dafff;
+  color: #000000;
+  box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
+  cursor: pointer;
+}
+
+.paper:disabled {
+  background-color: #9d9d9d;
+  color: #000000;
+  cursor: not-allowed;
+}
+
+.scissors {
+  flex: 1;
+  background-color: #3882f6;
+  color: #ffffff;
+  border: 2px #000000 solid;
+  border-radius: 12px;
+  padding: 16px 32px 16px 32px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  transition-duration: 0.3s;
+}
+
+.scissors:hover:not([disabled]) {
+  background-color: #7dafff;
+  color: #000000;
+  box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
+  cursor: pointer;
+}
+
+.scissors:disabled {
+  background-color: #9d9d9d;
+  color: #000000;
+  cursor: not-allowed;
+}
+
+.computer-score {
+  font-size: larger;
+  color: white;
+}
+
+.player-score {
+  font-size: larger;
+  color: white;
+}
+
+.round {
+  font-size: larger;
+  color: white;
+}
+
+.result {
+  font-size: larger;
+  color: white;
+}
+
+.end-game {
+  font-size: larger;
+  color: white;
+}
+
+.restart {
+  background-color: #3882f6;
+  color: #ffffff;
+  border: 2px #000000 solid;
+  border-radius: 12px;
+  padding: 16px 32px 16px 32px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
