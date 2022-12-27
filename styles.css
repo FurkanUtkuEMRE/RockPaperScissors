@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto';
-  background-image: url('./images/background.jpg');
+  background-color: #222222;
 }
 
 .flex-container {
@@ -19,8 +19,8 @@ body {
 /* Buttons */
 .rock {
   flex: 1;
-  background: #eb1060;
-  background: linear-gradient(90deg, #eb1060 0%, #a82fa8 50%, #eb1060 100%);
+  background: #781978;
+  background: linear-gradient(90deg, #781978 0%, #c90f53 50%, #781978 100%);
   color: #ffffff;
   border: 5px #ffffff solid;
   border-radius: 12px;
@@ -33,7 +33,8 @@ body {
 }
 
 .rock:hover:not([disabled]) {
-  background: linear-gradient(90deg, #a82fa8 0%, #eb1060 50%, #a82fa8 100%);
+  background: #c90f53;
+  background: linear-gradient(90deg, #c90f53 0%, #781978 50%, #c90f53 100%);
   color: #ffffff;
   text-shadow: 2px 2px #00000030;
   box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
@@ -41,16 +42,16 @@ body {
 }
 
 .rock:disabled {
-  background: #383838;
-  background: linear-gradient(90deg, #383838 0%, #6e6e6e 50%, #383838 100%);
+  background: #222222;
+  background: linear-gradient(90deg, #222222 0%, #373737 50%, #222222 100%);
   color: #ffffff;
   cursor: not-allowed;
 }
 
 .paper {
   flex: 1;
-  background: #eb1060;
-  background: linear-gradient(90deg, #eb1060 0%, #a82fa8 50%, #eb1060 100%);
+  background: #781978;
+  background: linear-gradient(90deg, #781978 0%, #c90f53 50%, #781978 100%);
   color: #ffffff;
   border: 5px #ffffff solid;
   border-radius: 12px;
@@ -63,8 +64,8 @@ body {
 }
 
 .paper:hover:not([disabled]) {
-  background: #a82fa8;
-  background: linear-gradient(90deg, #a82fa8 0%, #eb1060 50%, #a82fa8 100%);
+  background: #c90f53;
+  background: linear-gradient(90deg, #c90f53 0%, #781978 50%, #c90f53 100%);
   color: #ffffff;
   text-shadow: 2px 2px #00000030;
   box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
@@ -72,16 +73,16 @@ body {
 }
 
 .paper:disabled {
-  background: #383838;
-  background: linear-gradient(90deg, #383838 0%, #6e6e6e 50%, #383838 100%);
+  background: #222222;
+  background: linear-gradient(90deg, #222222 0%, #373737 50%, #222222 100%);
   color: #ffffff;
   cursor: not-allowed;
 }
 
 .scissors {
   flex: 1;
-  background: #eb1060;
-  background: linear-gradient(90deg, #eb1060 0%, #a82fa8 50%, #eb1060 100%);
+  background: #781978;
+  background: linear-gradient(90deg, #781978 0%, #c90f53 50%, #781978 100%);
   color: #ffffff;
   border: 5px #ffffff solid;
   border-radius: 12px;
@@ -94,8 +95,8 @@ body {
 }
 
 .scissors:hover:not([disabled]) {
-  background: #a82fa8;
-  background: linear-gradient(90deg, #a82fa8 0%, #eb1060 50%, #a82fa8 100%);
+  background: #c90f53;
+  background: linear-gradient(90deg, #c90f53 0%, #781978 50%, #c90f53 100%);
   color: #ffffff;
   text-shadow: 2px 2px #00000030;
   box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
@@ -103,16 +104,16 @@ body {
 }
 
 .scissors:disabled {
-  background: #383838;
-  background: linear-gradient(90deg, #383838 0%, #6e6e6e 50%, #383838 100%);
+  background: #222222;
+  background: linear-gradient(90deg, #222222 0%, #373737 50%, #222222 100%);
   color: #ffffff;
   cursor: not-allowed;
 }
 
 .restart {
   flex: 0.1;
-  background: #eb1060;
-  background: linear-gradient(90deg, #eb1060 0%, #a82fa8 50%, #eb1060 100%);
+  background: #781978;
+  background: linear-gradient(90deg, #781978 0%, #c90f53 50%, #781978 100%);
   color: #ffffff;
   border: 3px #ffffff solid;
   border-radius: 12px;
@@ -124,8 +125,8 @@ body {
 }
 
 .restart:hover:not([disabled]) {
-  background: #a82fa8;
-  background: linear-gradient(90deg, #a82fa8 0%, #eb1060 50%, #a82fa8 100%);
+  background: #c90f53;
+  background: linear-gradient(90deg, #c90f53 0%, #781978 50%, #c90f53 100%);
   color: #ffffff;
   box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
   cursor: pointer;
@@ -136,7 +137,7 @@ body {
   flex: 1;
   font-size: larger;
   font-weight: 800;
-  color: white;
+  color: #ffffff;
   text-shadow: 2px 2px #00000030;
 }
 
@@ -144,7 +145,7 @@ body {
   flex: 1;
   font-size: larger;
   font-weight: 800;
-  color: white;
+  color: #ffffff;
   text-shadow: 2px 2px #00000030;
 }
 
@@ -152,20 +153,20 @@ body {
   flex: 1;
   font-size: larger;
   font-weight: 800;
-  color: white;
+  color: #ffffff;
   text-shadow: 2px 2px #00000030;
 }
 
 .result {
   flex: 1;
   font-size: larger;
-  color: white;
+  color: #ffffff;
   text-shadow: 2px 2px #00000030;
 }
 
 .end-game {
   flex: 1;
   font-size: larger;
-  color: white;
+  color: #ffffff;
   text-shadow: 2px 2px #00000030;
 }

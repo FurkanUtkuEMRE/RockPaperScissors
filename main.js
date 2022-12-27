@@ -94,14 +94,18 @@ function enableButtons() {
   scissorsButton.disabled = false;
 }
 
-// Shows the messages which are displayed when the game is over.
+// Shows the messages which are displayed when the game is over. Also set the winner's name color to green.
 function showEndGameMessages() {
   if (roundsPlayed === 0) {
     endGameMessage.textContent = '';
+    playerScoreField.style.color = '#ffffff';
+    computerScoreField.style.color = '#ffffff';
   } else if (computerScore > playerScore) {
     endGameMessage.textContent = `End of game... You have lost ${computerScore} to ${playerScore}...`;
+    computerScoreField.style.color = '#42efbb';
   } else if (computerScore < playerScore) {
     endGameMessage.textContent = `End of game... You have won ${computerScore} to ${playerScore}!`;
+    playerScoreField.style.color = '#42efbb';
   } else {
     endGameMessage.textContent = `End of game... It is a tie with the scores ${computerScore} to ${playerScore}.`;
   }
