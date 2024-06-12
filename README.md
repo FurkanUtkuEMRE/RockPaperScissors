@@ -1,4 +1,4 @@
-# rock-paper-scissors
+# Rock Paper Scissors
 
 Rock, paper and scissors web application.
 
